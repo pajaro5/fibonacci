@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Solver</title>
+</head>
+<body>
+    <div id="controles" class="text-justify">
+        <h1>Fibonacci Solver</h1>
+        <label for="primero">Primer elemento de la serie</label>
+        <input type="number" name="primero" id="primero">
+
+        <label for="segundo">Segundo elemento de la serie</label>
+        <input type="number" name="segundo" id="segundo">
+
+        <label for="maximo">MAXIMO elemento de la serie</label>
+        <input type="number" name="maximo" id="maximo">
+
+        <br>
+        <input type="button" value="Generar (recursividad)" id="generar">
+        <input type="button" value="Generar (usando FOR anidados)" id="generar2">
+        <input type="button" value="Limpiar tabla" id="limpiar">
+        <br><br>
+    </div>
+    <div id="solucion"></div>
+</body>
+<script src="js/solver.js"></script>
+<script src="js/resultado.js"></script>
+<script src="js/main.js"></script>
+</html>
